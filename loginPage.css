@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./background.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main {
+  width: 400px;
+  height: auto;
+  min-height: 400px;
+  padding: 30px;
+  background: transparent;
+  border: 2px solid #b7bbeca1;
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.main input {
+    flex: 1;
+    outline: none;
+    padding: 10px 10px 10px 20px;
+    background-color: transparent;
+    border: 2px solid #b7bbeca1;
+    border-radius: 30px;
+    color: #eee;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.main input::placeholder {
+    color: #dedede;
+  }
+
+h1 {
+    color: #eee;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.main button {
+    flex: 1;
+    outline: none;
+    padding: 5px 15px 5px 15px;
+    background-color: #b7bbeca1;
+    border: 2px solid #dadadaa1;
+    border-radius: 30px;
+    color: #eee;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.main button:hover {
+    background-color: rgb(174, 101, 243);
+}
+
+a:hover {
+    color: white;
+}
