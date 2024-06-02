@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav">
+            <ul>
+                <li><a href=""><img src="logo.png" alt=""></a></li>
+                <li><a href="">Homepage</a></li>
+                <li><a href="">Support</a></li>
+            </ul>
+        </div>
+        <div class="kanan">
+            <ul>
+                <li><a href="loginPage.html">Login</a></li>
+                <li><a href="RegisterPage.html">Register</a></li>
+                <li><a href="">Level : 0</a></li>
+                <li><a href=""><img src="https://www.freeiconspng.com/thumbs/profile-icon-png/am-a-19-year-old-multimedia-artist-student-from-manila--21.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="img-container">
+            <img src="logo.png" alt="">
+            <!-- <h1>Silahkan input task baru</h1> -->
+        </div>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="Enter a new task">
+            <input type="date" id="todo-date">
+            <button type="submit">Add Task</button>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
